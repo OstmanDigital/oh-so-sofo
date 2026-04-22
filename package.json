@@ -1,0 +1,9 @@
+{
+  "name": "ohso-hemsida",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for Oh So Sofo",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
