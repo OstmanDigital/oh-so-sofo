@@ -739,6 +739,7 @@ section {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .footer-brand img {
@@ -747,10 +748,23 @@ section {
   display: block;
 }
 
+.footer-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
 .footer-copy {
   color: var(--text-muted);
   font-size: 0.85rem;
   margin: 0;
+}
+
+.footer-company {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  margin: 0;
+  opacity: 0.8;
 }
 
 .footer-legal {
@@ -863,6 +877,14 @@ section {
 
   .hero-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .brand-logo {
+    height: 3.75rem;
+  }
+
+  .footer-brand img {
+    height: 2.5rem;
   }
 
   .about-grid {
