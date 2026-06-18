@@ -54,7 +54,7 @@
         <nav class="site-nav" aria-label="Huvudmeny">
           <a href="#hem">Hem</a>
           <a href="#om-oss">Om oss</a>
-          <a href="#events">Events &amp; Erbjudanden</a>
+          <a href="#events">Erbjudanden &amp; Händelser</a>
           <a href="#kontakt">Kontakt</a>
         </nav>
         <div class="header-end">
@@ -77,7 +77,7 @@
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobilmeny">
       <a href="#hem">Hem</a>
       <a href="#om-oss">Om oss</a>
-      <a href="#events">Events &amp; Erbjudanden</a>
+      <a href="#events">Erbjudanden &amp; Händelser</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
 
@@ -91,14 +91,17 @@
           <div class="hero-grid">
             <div class="hero-content">
               <p class="hero-eyebrow">SoFo &middot; Södermalm &middot; Stockholm</p>
-              <h2 class="hero-title">Välkommen till Oh So Sofo</h2>
+              <h2 class="hero-title">
+                <span class="hero-title-greeting">Välkommen!</span>
+                <span class="hero-title-name">Oh So Sofo</span>
+              </h2>
               <p class="hero-lead">
-                En liten presentbutik med hjärta i SoFo. Handplockade presenter,
-                hemdetaljer och en trygg, inkluderande miljö för alla.
+                En liten presentbutik i hjärtat av SoFo-området på Södermalm. Handplockade presenter,
+                hemdetaljer och en varm, inkluderande miljö för alla.
               </p>
               <div class="cta-row">
                 <a class="btn btn-primary" href="#kontakt">Hitta hit</a>
-                <a class="btn btn-outline" href="#events">Events &amp; Erbjudanden</a>
+                <a class="btn btn-outline" href="#events">Erbjudanden &amp; Händelser</a>
               </div>
             </div>
             <div class="hero-image">
@@ -115,10 +118,10 @@
             <div>
               <div class="section-header">
                 <p class="section-label">Om oss</p>
-                <h2 class="section-title">En butik med värme och personlighet</h2>
+                <h2 class="section-title">En mysig butik med värme och personlighet</h2>
               </div>
               <p class="about-prose">
-                Oh So Sofo är en present- och specialitetsboutique med fokus på produkter designade eller producerade i och runt Stockholm. Butiken har det bredaste tillgängliga sortimentet av Solstickan Design-produkter, tillsammans med lokalt handgjorda föremål, ekologiska speciallivsmedel och hudvårdsprodukter samt accessoarer för hem och garderob.
+                Oh So Sofo är en present- och specialitetsboutique med fokus på produkter designade eller producerade i och runt Stockholm och Norden. Butiken har det bredaste tillgängliga sortimentet av Solstickan Design-produkter, tillsammans med lokalt handgjorda föremål, ekologiska speciallivsmedel och hudvårdsprodukter samt accessoarer för hem och garderob.
               </p>
               <!--
               <div class="pride-badge">
@@ -173,43 +176,36 @@
         <div class="container">
           <div class="section-header">
             <p class="section-label">Aktuellt</p>
-            <h2 class="section-title">Events &amp; Erbjudanden</h2>
+            <h2 class="section-title">Erbjudanden &amp; Händelser</h2>
             <p class="section-lead">Håll koll på vad som händer i butiken — från säsongserbjudanden till presentguider och specialevent.</p>
           </div>
+          <!-- Säljfeature-rad -->
+          <div class="event-feature">
+            <div class="event-feature-image">
+              <img src="/public/eventsOffers.jpg" alt="Reor och specialerbjudanden på Oh So Sofo">
+            </div>
+            <div class="event-feature-content">
+              <p class="section-label">Alltid i butiken</p>
+              <h3 class="event-feature-title">Reor och specialerbjudanden</h3>
+              <p class="event-feature-desc">Det finns alltid en speciell rea eller ett erbjudande på olika varor. Erbjudanden ändras varje vecka och många annonseras inte, så titta gärna in och se vad som erbjuds idag!</p>
+            </div>
+          </div>
+
+          <!-- Klickbara kort -->
           <div class="events-grid">
-            <article class="event-card">
-              <div class="event-banner event-banner-1">
-                <span class="event-tag">Erbjudande</span>
-              </div>
-              <div class="event-body">
-                <p class="event-date">[Lägg till datum]</p>
-                <h3 class="event-title">Säsonsrea</h3>
-                <p class="event-desc">Spara på utvalda produkter i butiken. Passa på att hitta favoriter till ett bra pris.</p>
-                <a class="event-link" href="#kontakt">Fråga i butiken →</a>
-              </div>
-            </article>
-            <article class="event-card">
-              <div class="event-banner event-banner-2">
-                <span class="event-tag">Event</span>
-              </div>
-              <div class="event-body">
-                <p class="event-date">[Lägg till datum]</p>
-                <h3 class="event-title">Presentguide</h3>
-                <p class="event-desc">Kom in och låt oss hjälpa dig hitta den perfekta presenten. Vi guidar dig genom sortimentet.</p>
-                <!-- <a class="event-link" href="#kontakt">Kontakta oss →</a> -->
-              </div>
-            </article>
-            <article class="event-card">
-              <div class="event-banner event-banner-3">
-                <span class="event-tag">Nyhet</span>
-              </div>
-              <div class="event-body">
-                <p class="event-date">[Lägg till datum]</p>
-                <h3 class="event-title">Ny kollektion</h3>
-                <p class="event-desc">Vi har fyllt på med nya favoriter. Kom in och se vad som är nytt i butiken.</p>
-                <a class="event-link" href="#kontakt">Hitta hit →</a>
-              </div>
-            </article>
+            <a class="event-card-link" href="/presentguide/">
+              <article class="event-card">
+                <div class="event-banner event-banner-img">
+                  <img src="/public/gift.jpg" alt="Presentguide på Oh So Sofo">
+                  <span class="event-tag">Presentguide</span>
+                </div>
+                <div class="event-body">
+                  <!--<h3 class="event-title">Presentguide</h3>-->
+                  <p class="event-desc">Letar du efter något att ta med hem till vänner eller familj, eller ett minne från ditt besök i Sverige? Vi hjälper dig gärna att hitta den perfekta produkten utifrån dina resebehov och andra önskemål.</p>
+                  <span class="event-link">Läs mer →</span>
+                </div>
+              </article>
+            </a>
           </div>
         </div>
       </section>
@@ -309,6 +305,7 @@
         <div class="footer-meta">
           <p class="footer-copy">&copy; <span data-current-year></span> Oh So Sofo &middot; SoFo, Södermalm</p>
           <p class="footer-company">Oh So Sofo Boutique ägs och drivs av Håkan Vilhelmssons Hälsa AB &middot; org.nr 559326-8328</p>
+          <p class="footer-credit">Hemsida skapad av <a href="https://ostmandigital.se" target="_blank" rel="noopener noreferrer">Östman Digital</a></p>
         </div>
         <nav class="footer-legal" aria-label="Juridiska länkar">
           <a href="/integritetspolicy/">Integritetspolicy</a>
