@@ -91,10 +91,13 @@
           <div class="hero-grid">
             <div class="hero-content">
               <p class="hero-eyebrow">SoFo &middot; Södermalm &middot; Stockholm</p>
-              <h2 class="hero-title">Welcome to Oh So Sofo</h2>
+              <h2 class="hero-title">
+                <span class="hero-title-greeting">Welcome!</span>
+                <span class="hero-title-name">Oh So Sofo</span>
+              </h2>
               <p class="hero-lead">
-                A small gift shop with heart in SoFo. Carefully chosen gifts,
-                home details and a safe, inclusive space for everyone.
+                A small gift shop in the heart of Stockholms SoFo neighbourhood. Carefully chosen gifts,
+                home details and a warm, inclusive space for everyone.
               </p>
               <div class="cta-row">
                 <a class="btn btn-primary" href="#contact">Find us</a>
@@ -115,24 +118,11 @@
             <div>
               <div class="section-header">
                 <p class="section-label">About us</p>
-                <h2 class="section-title">A shop with warmth and personality</h2>
+                <h2 class="section-title">A cozy boutique with warmth and personality</h2>
               </div>
               <p class="about-prose">
-                Oh So Sofo is a gift and specialties boutique with a focus on products designed or produced in and around Stockholm. The shop has the broadest available range of Solstickan Design items, along with handcrafted items made locally, specialty organic food and skincare products, along with accessories for the home and to wear.
+                Oh So Sofo is a gift and specialties boutique with a focus on products designed or produced in and around Stockholm, as well as the Nordics. The shop has the broadest available range of Solstickan Design items, along with handcrafted items made locally, specialty organic food and skincare products, along with accessories for the home and to wear.
               </p>
-              <!--
-              <div class="pride-badge">
-                <div class="pride-dots" aria-hidden="true">
-                  <span style="background:#e40303"></span>
-                  <span style="background:#ff8c00"></span>
-                  <span style="background:#ffed00"></span>
-                  <span style="background:#008026"></span>
-                  <span style="background:#004dff"></span>
-                  <span style="background:#750787"></span>
-                </div>
-                LGBTQIA+ friendly shop
-              </div>
-              -->
             </div>
             <ul class="feature-list" aria-label="Our values">
               <li class="feature-item">
@@ -160,7 +150,7 @@
                 <div class="feature-icon" aria-hidden="true">📍</div>
                 <div class="feature-text">
                   <strong>Heart of SoFo</strong>
-                  <span>Beautifully located in one of Stockholm's cosiest neighbourhoods.</span>
+                  <span>Beautifully located in one of Stockholm's coziest neighbourhoods.</span>
                 </div>
               </li>
             </ul>
@@ -176,41 +166,33 @@
             <h2 class="section-title">Events &amp; Offers</h2>
             <p class="section-lead">Keep up with what's happening in the shop — from seasonal offers to gift guides and special events.</p>
           </div>
+          <!-- Sales feature row -->
+          <div class="event-feature">
+            <div class="event-feature-image">
+              <img src="/public/eventsOffers.jpg" alt="Sales and special offers at Oh So Sofo">
+
+            </div>
+            <div class="event-feature-content">
+              <p class="section-label">Always on</p>
+              <h3 class="event-feature-title">Sales and Special Offers</h3>
+              <p class="event-feature-desc">There is always a special sale or offer on a variety of items. Offers change weekly, and many are not announced, so stop by and see what is on offer today!</p>
+            </div>
+          </div>
+
+          <!-- Clickable cards -->
           <div class="events-grid">
-            <article class="event-card">
-              <div class="event-banner event-banner-1">
-                <span class="event-tag">Offer</span>
-              </div>
-              <div class="event-body">
-                <p class="event-date">[Add date]</p>
-                <h3 class="event-title">Seasonal Sale</h3>
-                <p class="event-desc">Save on selected products in the shop. Take the chance to find your favourites at a great price.</p>
-                <a class="event-link" href="#contact">Ask in-store →</a>
-              </div>
-            </article>
-            <article class="event-card">
-              <div class="event-banner event-banner-2">
-                <span class="event-tag">Event</span>
-              </div>
-              <div class="event-body">
-                <p class="event-date">[Add date]</p>
-                <h3 class="event-title">Gift Guide</h3>
-                <p class="event-desc">Come in and let us help you find the perfect gift. We guide you through our assortment.</p>
-                <!-- <a class="event-link" href="#contact">Book a visit →</a> -->
-      
-              </div>
-            </article>
-            <article class="event-card">
-              <div class="event-banner event-banner-3">
-                <span class="event-tag">New in</span>
-              </div>
-              <div class="event-body">
-                <p class="event-date">[Add date]</p>
-                <h3 class="event-title">New Collection</h3>
-                <p class="event-desc">We have stocked up with new favourites. Come in and see what's new in the shop.</p>
-                <a class="event-link" href="#contact">Find us →</a>
-              </div>
-            </article>
+            <a class="event-card-link" href="/en/gift-guide/">
+              <article class="event-card">
+                <div class="event-banner event-banner-img">
+                  <img src="/public/gift.jpg" alt="Gift Guide at Oh So Sofo">
+                  <span class="event-tag">Gift Guide</span>
+                </div>
+                <div class="event-body">
+                  <p class="event-desc">Looking for something to take home to friends or family, or a reminder of your visit to Sweden? We are here to help you find that perfect item depending on your travel needs and other requirements.</p>
+                  <span class="event-link">Read more →</span>
+                </div>
+              </article>
+            </a>
           </div>
         </div>
       </section>
@@ -310,6 +292,7 @@
         <div class="footer-meta">
           <p class="footer-copy">&copy; <span data-current-year></span> Oh So Sofo &middot; SoFo, Södermalm</p>
           <p class="footer-company">Oh So Sofo Boutique is owned and operated by Håkan Vilhelmssons Hälsa AB &middot; org.nr 559326-8328</p>
+          <p class="footer-credit">Website crafted by <a href="https://ostmandigital.se" target="_blank" rel="noopener noreferrer">Östman Digital</a></p>
         </div>
         <nav class="footer-legal" aria-label="Legal links">
           <a href="/en/privacy-policy/">Privacy Policy</a>
