@@ -31,6 +31,7 @@
     <meta name="theme-color" content="#c0644a">
     <link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../assets/fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../public/storefront.jpg" as="image">
     <link rel="stylesheet" href="../assets/css/fonts.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
     <script src="../assets/js/main.js" defer></script>
@@ -121,7 +122,7 @@
               </div>
             </div>
             <div class="hero-image">
-              <img src="../public/storefront.jpg" alt="Oh So Sofo – the storefront at Östgötagatan 55 in SoFo, Södermalm">
+              <img src="../public/storefront.jpg" alt="Oh So Sofo – the storefront at Östgötagatan 55 in SoFo, Södermalm" fetchpriority="high">
             </div>
           </div>
         </div>
@@ -185,7 +186,7 @@
           <!-- Sales feature row -->
           <div class="event-feature">
             <div class="event-feature-image">
-              <img src="/public/eventsOffers.jpg" alt="Sales and special offers at Oh So Sofo">
+              <img src="/public/eventsOffers.jpg" alt="Sales and special offers at Oh So Sofo" loading="lazy">
 
             </div>
             <div class="event-feature-content">
@@ -200,7 +201,7 @@
             <a class="event-card-link" href="/en/gift-guide/">
               <article class="event-card">
                 <div class="event-banner event-banner-img">
-                  <img src="/public/gift.jpg" alt="Gift Guide at Oh So Sofo">
+                  <img src="/public/gift.jpg" alt="Gift Guide at Oh So Sofo" loading="lazy">
                   <span class="event-tag">Gift Guide</span>
                 </div>
                 <div class="event-body">
